@@ -1,0 +1,17 @@
+User-Agent: Baiduspider
+Disallow: /
+
+User-Agent: AhrefsBot
+Disallow: /
+
+User-Agent: AlphaSeoBot
+Disallow: /
+
+User-Agent: AlphaBot
+Disallow: /
+
+User-Agent: SemrushBot
+Disallow: /
+
+User-Agent: *
+Allow: /

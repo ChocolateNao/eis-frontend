@@ -1,0 +1,25 @@
+# Git
+.git
+.gitignore
+
+# Build dirs
+node_modules
+dist
+logs
+npm-debug.log
+
+# Configs
+Dockerfile
+.dockerignore
+.*rc*
+.vscode/
+.env.example
+
+# Test
+test/
+coverage/
+jest.config.json
+
+# Docs
+*.md
+LICENSE
