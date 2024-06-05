@@ -8,7 +8,7 @@ This project shows some water meters data from the API. Built with styled-compon
 
 Any item can be deleted from the list by pressing the red trash can button (performs `DELETE` request).
 
-There could be a lot of potential improvements, but due to the limited time period for executing the task, it is what it is.
+There could be a lot of potential improvements, but due to the limited time period for executing the task, it is what it is. It is also my first time with styled-components, so don't judge me for not utilizing best practices. Personally, I'd rather prefer tailwind.
 
 ## Rinning the application locally
 
@@ -21,6 +21,7 @@ First of all, clone the repo
 git clone https://github.com/ChocolateNao/eis-frontend.git
 cd ./eis-frontend
 ```
+
 ### Docker
 
 The application is shipped with a `Dockerfile` so you can run it inside a docker container
