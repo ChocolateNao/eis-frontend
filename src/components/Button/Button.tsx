@@ -18,12 +18,13 @@ const neutralStyles = css`
 `;
 
 const destructiveStyles = css`
-  background-color: red;
+  background-color: #fee3e3;
   color: white;
-  border: 1px solid darkred;
+  border: 1px solid #fee3e3;
 
   &:hover {
-    background-color: darkred;
+    background-color: #fed7d7;
+    border: 1px solid #fed7d7;
   }
 `;
 
@@ -36,6 +37,8 @@ const disabledStyles = css`
 
 const StyledButton = styled.button<{ variant: string }>`
   display: inline-block;
+  overflow: hidden;
+  margin: 0 auto;
   height: 36px;
   width: 30px;
   cursor: pointer;

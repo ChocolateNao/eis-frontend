@@ -10,13 +10,13 @@ export interface MeterRes {
 
 export interface Meter {
   id: string;
-  _type: MeterType[];
+  _type: MeterType[] | string[];
   area: Area;
   is_automatic: boolean | null;
   communication: string;
   description: string;
   serial_number: string;
-  installation_date: Date;
+  installation_date: Date | string;
   brand_name: null | string;
   model_name: null | string;
   initial_values: number[];

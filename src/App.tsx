@@ -1,7 +1,11 @@
+import { Header } from './components/Title';
+import { Table } from './components/Table';
+
 function App() {
   return (
     <>
-      <h1>Hello world</h1>
+      <Header>Список счётчиков</Header>
+      <Table />
     </>
   );
 }

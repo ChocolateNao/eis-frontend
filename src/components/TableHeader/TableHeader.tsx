@@ -1,6 +1,18 @@
 import styled from 'styled-components';
 import { tableColWidth } from '../../models/tableColWidth.enum';
 
+const Tr = styled.tr`
+  width: 100%;
+  border-collapse: collapse;
+`;
+
+const Thead = styled.thead`
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 1;
+`;
+
 export const Th = styled.th<{ width: string }>`
   text-align: left;
   padding: 8px 12px;
@@ -13,8 +25,8 @@ export const Th = styled.th<{ width: string }>`
 
 function TableHeader() {
   return (
-    <thead>
-      <tr>
+    <Thead>
+      <Tr>
         <Th width={tableColWidth.id}>№</Th>
         <Th width={tableColWidth.type}>Тип</Th>
         <Th width={tableColWidth.date}>Дата установки</Th>
@@ -22,8 +34,8 @@ function TableHeader() {
         <Th width={tableColWidth.current}>Текущее показание</Th>
         <Th width={tableColWidth.address}>Адрес</Th>
         <Th width={tableColWidth.other}>Примечание</Th>
-      </tr>
-    </thead>
+      </Tr>
+    </Thead>
   );
 }
 
