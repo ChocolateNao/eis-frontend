@@ -1,3 +1,4 @@
+import { Address } from './address.interface';
 import { MeterType } from './meterType.enum';
 
 export interface MeterRes {
@@ -19,6 +20,7 @@ export interface Meter {
   brand_name: null | string;
   model_name: null | string;
   initial_values: number[];
+  address?: Address;
 }
 
 export interface Area {

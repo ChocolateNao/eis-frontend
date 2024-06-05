@@ -3,3 +3,5 @@ export enum MeterType {
   ColdWaterAreaMeter = 'ColdWaterAreaMeter',
   HotWaterAreaMeter = 'HotWaterAreaMeter',
 }
+
+export const perPage = 20;
