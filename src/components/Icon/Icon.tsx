@@ -19,7 +19,12 @@ const Span = styled.span<Pick<IconProps, 'size' | 'color'>>`
 `;
 
 interface IconProps {
-  variant: 'flame' | 'water_hot' | 'water_cold' | 'energy' | 'trash';
+  variant:
+    | 'flame'
+    | 'HotWaterAreaMeter'
+    | 'ColdWaterAreaMeter'
+    | 'energy'
+    | 'trash';
   size?: string;
   color?: string;
 }
@@ -31,9 +36,9 @@ function Icon({ variant, size, color }: IconProps) {
         return <Energy />;
       case 'flame':
         return <Flame />;
-      case 'water_hot':
+      case 'HotWaterAreaMeter':
         return <WaterHot />;
-      case 'water_cold':
+      case 'ColdWaterAreaMeter':
         return <WaterCold />;
       case 'trash':
         return <Trash />;
