@@ -24,7 +24,7 @@ export const getMeters = async (limit: number, offset: number) => {
       }
       meter.address = address;
     }
-    return data.results;
+    return data;
   } catch (e) {
     console.error(e);
   }
@@ -44,7 +44,7 @@ export const getAddress = async (id: string) => {
 
 export async function deleteMeter(id: string) {
   try {
-    await fetch(`${host}/meters${id}`, {
+    await fetch(`${host}/meters/${id}`, {
       method: 'DELETE',
     });
   } catch (e) {
