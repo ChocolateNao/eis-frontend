@@ -10,10 +10,16 @@ Any item can be deleted from the list by pressing the red trash can button (perf
 
 There could be a lot of potential improvements, but due to the limited time period for executing the task, it is what it is. It is also my first time with styled-components, so don't judge me for not utilizing best practices. Personally, I'd rather prefer tailwind.
 
-## Rinning the application locally
+## Deployment
 
 > [!IMPORTANT]
-> There are some troubles with CORS, I only managed to pass requests via chrome.
+> There are some troubles with CORS and SSL certificates
+> 
+> You should disable https for this to work
+
+https://eis.choconao.com/
+
+## Rinning the application locally
 
 First of all, clone the repo
 
