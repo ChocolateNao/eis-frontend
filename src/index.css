@@ -2,10 +2,10 @@
   font-family: 'Roboto Medium';
   src: url('./assets/fonts/Roboto-Medium/Roboto-Medium.eot');
   src:
-    url('./assets/fonts/Roboto-Medium/RRoboto-Medium.eot?#iefix')
+    url('./assets/fonts/Roboto-Medium/Roboto-Medium.eot?#iefix')
       format('embedded-opentype'),
-    url('./assets/fonts/Roboto-Medium/RRoboto-Medium.woff') format('woff'),
-    url('./assets/fonts/Roboto-Medium/RRoboto-Medium.ttf') format('truetype');
+    url('./assets/fonts/Roboto-Medium/Roboto-Medium.woff') format('woff'),
+    url('./assets/fonts/Roboto-Medium/Roboto-Medium.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
